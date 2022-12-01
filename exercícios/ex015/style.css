@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body {
+  background-color: black;
+}
+h1 {
+  color: blue;
+  background-color: antiquewhite;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p { 
+  color: rgb(255, 255, 255);
+  background-color: brown;
+  font-display: initial;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a {
+  color: aliceblue;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-classes</title>
+    <style>
+      div{
+        display: inline-block;
+        background-color: lightblue;
+        border: 1px solid black;
+        text-align: center;
+        height: 100px;
+        width: 100px;
+      }
+
+      div > p {
+        display: none;
+      }
+
+      div:hover{
+        height: 200px;
+        background-color: blue;
+      }
+
+      div:hover > p {
+        display: block;
+      }
+
+      a{
+        height: 100px;
+        width: 100px;
+        background-color: darkgoldenrod;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="d1">01
+      <p>OP 01</p>
+      <p>CLIQUE AQUI</p>
+    </div>
+    <div id="02">02
+      <p>OP 02</p>
+    </div>
+    <div id="03">03
+      <p>OP 03</p>
+    </div>
+  <a href="links.html">CLICA AQUI</a>
+  </body>
+</html>

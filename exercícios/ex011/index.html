@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <title>Trabalhando com mídias</title>
+  </head>
+  <body>
+    <h1>Tamanhos de imagens</h1>
+    <p>Mova o navegador para  ver os tamanhos de imagens sendo alterados.</p>
+    <p>Para esse recurso usamos a tag <strong>picture</strong> e dentro dela usamos a tag <strong>img.</strong></p>
+    <picture>
+      <source media="(max-width: 750px)" srcset="imagens/img-p.jpg" type=image/jpg>
+      <source media="(max-width: 1050px)" srcset="imagens/img-m.jpg" type="image/jpg">
+      <img src="imagens/img-g.jpg" alt="Imagem flexível">
+    </picture>
+    <p>Não se esquercer de colocar o tipo de unidade no tamanho escolhido. Ex: pixel.</p>
+    <h1>Adicionando áudios ao site.</h1>
+    <audio preload="metadata" autoplay controls loop>
+      <source src="midia/Keep On Movin' - King Canyon.mp3" type="audio/mpeg">
+    </audio>
+    <p>Para a inscersão de áudios no HTML5 podemos usar apenas a tag <strong>audio</strong> e inserir o arquivo. Porém também também podemos aumentar a tag e usar no formato</p>
+    <code>
+      <monospace>
+        audio preload="metadata" autoplay controls loop
+          <p>source</p>
+      </monospace>
+      </audio>
+    </code>
+  </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grupo de caixas</title>
+  <style>
+    body{
+      font-family: 'Courier New', Courier, monospace;
+      background-color: darkred;
+      margin: 0px;
+    }
+
+    header{
+      background-color: antiquewhite;
+      padding: 1px;
+      text-align: center;
+    }
+
+    #titulosite{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 2em;
+    }
+
+    #menu{
+      background-color: darkred;
+      padding: 1px;
+      box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, 0.637);
+    }
+
+    #menu > a{
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+      margin: 20px;
+    }
+
+    #menu > a:hover{
+      text-decoration: underline;
+    }
+
+    #assuntos{
+      background-color: antiquewhite;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center;
+      font-size: 0.8em;
+    }
+
+    #assuntos > h1{
+      margin: 0px;
+      padding: 0px 0px 5px 0px;
+      border: 0px;
+    }
+
+    #noticias{
+      background-color: antiquewhite;
+      border-radius: 0px 0px 0px 10px;
+      text-align: center;
+    }
+
+    #noticias > article > h2{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin: 5px;
+    }
+
+    #noticias > article > aside{
+      text-align: right;
+      margin-top: -15px;
+    }
+
+    #noticias > article {
+      padding: 10px;
+      display: inline-table;
+      height: 20px;
+      width: 20px;
+      margin: 0px 10px 0px 10px;
+      border-radius: 20px;
+      
+    }
+
+    #noticias > article:hover {
+      box-shadow: 0px 0px 5px 1px black;
+      background-color: rgba(139, 0, 0, 0.164);
+    }
+
+
+    footer{
+      margin: 0px;
+      padding: 0px;
+      text-align: right;
+      height: 20px;
+      width: auto;
+    }
+
+    footer > p {
+      margin: 10px 0px 0px 0px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <section>
+      <h1 id="titulosite">MEU SITE</h1>
+      <nav id="menu">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </section>
+    </nav>  
+  </header>
+
+  <main>
+    <section id="assuntos">
+      <h1> Política, esportes e tecnologia.</h1>
+    </section>
+    <section id="noticias">
+        <article>
+          <h2>Política</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo cum repudiandae earum, dolore quae quaerat eius necessitatibus quia? Excepturi repudiandae suscipit nisi aspernatur voluptates praesentium sapiente fugit nesciunt ipsam est?</p>
+        </article>
+        <article>
+          <h2>Esportes</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi alias magnam, necessitatibus sequi quae iste. Quaerat ut sapiente distinctio aperiam dicta. Sit dignissimos voluptates sunt molestias quos. Repellat, nesciunt magni!</p>
+        </article>
+        <article>
+          <h2>Tecnologia</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, cumque quibusdam? Voluptate, quae rerum. Voluptatum, assumenda blanditiis architecto fugit, facere labore autem fuga facilis minus, nihil voluptas quos sit atque!</p>
+          <aside>
+            Escrito por lorem.
+          </aside>
+        </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Site desenvolvido por Mateus.</p>
+  </footer>
+</body>
+</html>
