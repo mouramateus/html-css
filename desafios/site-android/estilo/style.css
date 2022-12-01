@@ -73,7 +73,7 @@ nav {
 
 nav > a {
   color:  var(--cor0);
-  padding: 2px;
+  padding: 10px 3px;
   text-decoration: none;
   font-weight: bold;
   transition-duration: .5s;
